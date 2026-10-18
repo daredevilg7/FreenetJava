@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_gray"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="28dp">
+
+    <!-- Здесь приложение объясняет, зачем ему интернет при первом запуске. -->
+    <TextView
+        android:id="@+id/offlineTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="@color/primary_blue"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/offlineDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:text="@string/offline_first_download"
+        android:textColor="@color/text_primary"
+        android:textSize="17sp" />
+
+    <!-- Полоса показывает ход загрузки карты на телефон. -->
+    <ProgressBar
+        android:id="@+id/offlineProgressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        android:layout_marginTop="24dp"
+        android:max="100" />
+
+    <TextView
+        android:id="@+id/offlineProgressText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="14dp"
+        android:text="@string/offline_downloading"
+        android:textColor="@color/text_secondary"
+        android:textSize="15sp" />
+
+    <!-- Кнопка появляется, когда интернет прервался или сервер временно не ответил. -->
+    <Button
+        android:id="@+id/offlineRetryButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="@string/offline_retry"
+        android:visibility="gone" />
+</LinearLayout>

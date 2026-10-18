@@ -1,0 +1,13 @@
+# Gradle files created by Android Studio or a build.
+.gradle/
+**/build/
+
+# Local Android Studio settings and device paths.
+.idea/
+local.properties
+
+# Execution notes and system metadata are not part of the app.
+.superpowers/
+# План выполнения Codex не нужен пользователям проекта.
+docs/superpowers/plans/
+.DS_Store

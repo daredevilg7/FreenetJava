@@ -1,0 +1,29 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'ru.freenet.app'
+    compileSdk 36
+
+    defaultConfig {
+        applicationId 'ru.freenet.app'
+        minSdk 24
+        targetSdk 36
+        versionCode 1
+        versionName '1.0'
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
+dependencies {
+    // MapLibre показывает обычную карту и умеет сохранять выбранную область на устройстве.
+    implementation 'org.maplibre.gl:android-sdk:13.6.1'
+
+    // OkHttp позволяет подписать запросы карты именем нашего учебного приложения.
+    implementation 'com.squareup.okhttp3:okhttp:4.12.0'
+}

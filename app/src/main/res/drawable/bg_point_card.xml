@@ -1,0 +1,5 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <!-- Белая карточка с округлёнными краями отделяется от карты без сложной графики. -->
+    <solid android:color="@color/surface_white" />
+    <corners android:radius="16dp" />
+</shape>

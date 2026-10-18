@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">FreeNet</string>
+    <string name="offline_first_download">При первом запуске FreeNet сохраняет карту Уфы на телефон. После загрузки точки будут видны без интернета.</string>
+    <string name="offline_downloading">Загружаем карту Уфы…</string>
+    <string name="offline_progress">Загружено тайлов: %1$d · Данные: %2$s</string>
+    <string name="offline_no_network">Для первой загрузки карты нужно подключиться к интернету.</string>
+    <string name="offline_problem">Не удалось загрузить карту</string>
+    <string name="offline_retry">Повторить загрузку</string>
+    <string name="offline_map_ready">Карта сохранена на телефоне. Сейчас здесь появится карта с точками Wi-Fi.</string>
+    <string name="wifi_count">210 точек</string>
+    <string name="my_location">Моё местоположение</string>
+    <string name="refresh_points">Обновить точки</string>
+    <string name="nearest_point">Ближайшая точка</string>
+    <string name="wifi_point_number">Wi-Fi точка №%1$d</string>
+    <string name="copy_coordinates">Копировать</string>
+    <string name="open_route">Маршрут</string>
+    <string name="point_distance_unknown">Определите местоположение, чтобы узнать расстояние.</string>
+    <string name="points_refreshed">Точки на карте обновлены</string>
+    <string name="coordinates_copied">Координаты скопированы</string>
+    <string name="route_app_missing">Не найдено приложение для открытия маршрута.</string>
+    <string name="location_found">Местоположение найдено</string>
+    <string name="location_permission_denied">Разрешение не выдано. Карта и точки всё равно доступны.</string>
+    <string name="no_wifi_points">В списке пока нет Wi-Fi-точек.</string>
+    <string name="point_distance_km">Примерное расстояние: %.2f км</string>
+</resources>
